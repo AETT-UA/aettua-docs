@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "aett-ua", // Usually your GitHub org/user name.
+  organizationName: "AETT-UA", // Usually your GitHub org/user name.
   projectName: "aettua-docs", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
