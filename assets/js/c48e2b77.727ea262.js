@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaettua_docs=self.webpackChunkaettua_docs||[]).push([[9205],{3822:e=>{e.exports=JSON.parse('{"permalink":"/aettua-docs/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
