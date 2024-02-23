@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document outlines the Code of Conduct for the IT Team of AETTUA. It aims to establish a set of principles and practices to ensure a productive, respectful, and collaborative environment. Adherence to these guidelines is expected from all team members.
+This document outlines the Code of Conduct for AETTUA's IT Team. It aims to establish a set of principles and practices to ensure a productive, respectful, and collaborative environment. Adherence to these guidelines is expected from all team members.
 
 ## Table of Contents
 
