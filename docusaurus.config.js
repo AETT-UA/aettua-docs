@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "AETTUA Docs",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -78,6 +78,7 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
+          { to: "/docs/code-of-conduct", label: "Code of Conduct", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
@@ -89,29 +90,30 @@ const config = {
       footer: {
         style: "dark",
         links: [
+          // {
+          //   title: "Docs",
+          //   items: [
+          //     {
+          //       label: "Tutorial",
+          //       to: "/docs/intro",
+          //     },
+          //   ],
+          // },
           {
-            title: "Docs",
+            title: "Home",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Website",
+                href: "https://www.aettua.pt/",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Social",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Instagram",
+                href: "https://www.instagram.com/aettua/",
               },
             ],
           },
@@ -119,17 +121,13 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/aett-ua/",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} AETTUA. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
