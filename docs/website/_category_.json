@@ -1,0 +1,8 @@
+{
+  "label": "Website Documentation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation regarding the main website."
+  }
+}
