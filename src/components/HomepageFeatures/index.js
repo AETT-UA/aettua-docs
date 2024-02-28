@@ -4,32 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Code of Conduct',
+    Svg: require('@site/static/img/home/code-conduct.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Our association abides by a strict code of conduct that ensures a 
+        welcoming and inclusive environment for all contributors. Familiarize 
+        yourself with our guidelines to be a respectful member of our association.
+    </>
+    ),
+  },
+  {
+    title: 'All WebSites and Microsites Docs',
+    Svg: require('@site/static/img/home/docs.svg').default,
+    description: (
+      <>
+        Dive into the documentation for our comprehensive suite of websites 
+        and microsites. Find detailed guides and references to help you 
+        navigate and utilize every feature offered.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Meet the AETTUA Team',
+    Svg: require('@site/static/img/home/team.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Get to know the brilliant minds behind AETTUA. Our dedicated team 
+        drives our association forward with innovation and passion. Learn more 
+        about the people who make it all happen.
       </>
     ),
   },
