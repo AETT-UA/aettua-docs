@@ -4,35 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Code of Conduct',
+    title: 'Projects Documentation',
     Svg: require('@site/static/img/home/code-conduct.svg').default,
     description: (
       <>
-        Our association abides by a strict code of conduct that ensures a 
-        welcoming and inclusive environment for all contributors. Familiarize 
-        yourself with our guidelines to be a respectful member of our association.
-    </>
-    ),
-  },
-  {
-    title: 'All WebSites and Microsites Docs',
-    Svg: require('@site/static/img/home/docs.svg').default,
-    description: (
-      <>
-        Dive into the documentation for our comprehensive suite of websites 
-        and microsites. Find detailed guides and references to help you 
-        navigate and utilize every feature offered.
+        Documentation regarding each of our projects. Can encompass how it was made,
+        why it was made, how to use it, etc. 
       </>
     ),
   },
   {
-    title: 'Meet the AETTUA Team',
+    title: 'Deployments and Infrastructure',
+    Svg: require('@site/static/img/home/docs.svg').default,
+    description: (
+      <>
+        Documentation regarding each project's deployment, as well as 
+        the underlying infrastructure.
+      </>
+    ),
+  },
+  {
+    title: 'Code of Conduct',
     Svg: require('@site/static/img/home/team.svg').default,
     description: (
       <>
-        Get to know the brilliant minds behind AETTUA. Our dedicated team 
-        drives our association forward with innovation and passion. Learn more 
-        about the people who make it all happen.
+        To ease collaboration, we provide a code of conduct so that
+        every member can be on the same page regarding how the codebase is managed. 
       </>
     ),
   },
