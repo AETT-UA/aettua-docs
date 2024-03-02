@@ -1,0 +1,8 @@
+{
+  "label": "Deployments",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation regarding the infrastructure that hosts AETTUA's deployments."
+  }
+}

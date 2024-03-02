@@ -1,0 +1,8 @@
+{
+  "label": "N8n",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation regarding the n8n instance and its workflows, active or not."
+  }
+}

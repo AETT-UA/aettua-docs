@@ -82,13 +82,6 @@ const config = {
             className: 'github-link',
           },
           {
-            to: 'https://www.instagram.com/aettua/',
-            position: 'right',
-            target: '_blank',
-            className: 'instagram-link',
-
-          },
-          {
             to: 'https://drive.google.com/drive/u/1/folders/1_sMcUS5gTc-gWJTwV-Tf5FvSEoQfxJhK',
             position: 'right',
             target: '_blank',
@@ -97,7 +90,6 @@ const config = {
           {
             to: 'https://www.aettua.pt/',
             position: 'right',
-            label: 'Website',
             target: '_blank',
             className: 'website-link',
           }
