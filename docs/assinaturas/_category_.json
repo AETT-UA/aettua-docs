@@ -1,0 +1,8 @@
+{
+  "label": "Email Signature Generator",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation regarding the email signature generator."
+  }
+}

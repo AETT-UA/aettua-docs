@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Projects Documentation',
+    Svg: require('@site/static/img/home/code-conduct.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Documentation regarding each of our projects. Can encompass how it was made,
+        why it was made, how to use it, etc. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Deployments and Infrastructure',
+    Svg: require('@site/static/img/home/docs.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Documentation regarding each project's deployment, as well as 
+        the underlying infrastructure.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Code of Conduct',
+    Svg: require('@site/static/img/home/team.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        To ease collaboration, we provide a code of conduct so that
+        every member can be on the same page regarding how the codebase is managed. 
       </>
     ),
   },

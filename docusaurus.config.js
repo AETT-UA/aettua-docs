@@ -65,7 +65,7 @@ const config = {
         title: "AETTUA Docs",
         logo: {
           alt: "AETTUA Logo",
-          src: "img/logo.svg",
+          src: "img/aettua-logo/logo-blue.png",
         },
         items: [
           {
@@ -76,42 +76,55 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
+            to: 'https://github.com/AETT-UA',
+            position: 'right',
+            target: '_blank',
+            className: 'github-link',
           },
+          {
+            to: 'https://drive.google.com/drive/u/1/folders/1_sMcUS5gTc-gWJTwV-Tf5FvSEoQfxJhK',
+            position: 'right',
+            target: '_blank',
+            className: 'drive-link',
+          },
+          {
+            to: 'https://www.aettua.pt/',
+            position: 'right',
+            target: '_blank',
+            className: 'website-link',
+          }
         ],
       },
       footer: {
         style: "dark",
         links: [
-          {
-            title: "Home",
-            items: [
-              {
-                label: "Website",
-                href: "https://www.aettua.pt/",
-              },
-            ],
-          },
-          {
-            title: "Social",
-            items: [
-              {
-                label: "Instagram",
-                href: "https://www.instagram.com/aettua/",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/aett-ua/",
-              },
-            ],
-          },
+          // {
+          //   title: "Home",
+          //   items: [
+          //     {
+          //       label: "Website",
+          //       href: "https://www.aettua.pt/",
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: "Social",
+          //   items: [
+          //     {
+          //       label: "Instagram",
+          //       href: "https://www.instagram.com/aettua/",
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: "More",
+          //   items: [
+          //     {
+          //       label: "GitHub",
+          //       href: "https://github.com/aett-ua/",
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} AETTUA. Built with Docusaurus.`,
       },
