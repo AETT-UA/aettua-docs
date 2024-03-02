@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaettua_docs=self.webpackChunkaettua_docs||[]).push([[1449],{2260:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/aettua-docs/blog/tags/hello","allTagsPath":"/aettua-docs/blog/tags","count":2,"unlisted":false}')}}]);

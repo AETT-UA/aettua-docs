@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaettua_docs=self.webpackChunkaettua_docs||[]).push([[1899],{9861:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/aettua-docs/blog/tags/docusaurus","allTagsPath":"/aettua-docs/blog/tags","count":4,"unlisted":false}')}}]);
