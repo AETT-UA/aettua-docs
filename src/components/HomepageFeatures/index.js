@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Projects Documentation',
-    Svg: require('@site/static/img/home/code-conduct.svg').default,
+    Svg: require('@site/static/img/home/disk.svg').default,
     description: (
       <>
         Documentation regarding each of our projects. Can encompass how it was made,
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Deployments and Infrastructure',
-    Svg: require('@site/static/img/home/docs.svg').default,
+    Svg: require('@site/static/img/home/robot.svg').default,
     description: (
       <>
         Documentation regarding each project's deployment, as well as 
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Code of Conduct',
-    Svg: require('@site/static/img/home/team.svg').default,
+    Svg: require('@site/static/img/home/scroll.svg').default,
     description: (
       <>
         To ease collaboration, we provide a code of conduct so that
